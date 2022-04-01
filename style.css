@@ -1,0 +1,257 @@
+body {
+    background-color: whitesmoke;
+}
+
+.titre1 {
+    color: rgb(27, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txt_haut {
+    width: 31vh;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.texte-gif {
+    position: absolute;
+}
+
+.img_bre {
+    margin-left: auto;
+    width: 2cm;
+}
+
+.bouton_contact {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: black;
+}
+
+.bouton_site {
+    color: rgb(212, 230, 213);
+    font-family: -apple-system, margin-left;
+    font-size: 23px;
+    justify-content: right;
+    text-align: right;
+}
+
+#hero {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bg-hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/tel.jpg);
+    background-size: cover;
+}
+
+#bg-hero:hover {
+    filter: blur(12px);
+}
+
+#text-hero {
+    font-size: 50px;
+    height: auto;
+    width: auto;
+    z-index: 20;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: black;
+    border: 1px solid;
+    width: 90%;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    width: 10%;
+}
+
+#en-tete {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.emsg {
+    display: block;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#email {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#message {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#bouton {
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 219, 179);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px -2px #a3bbd3;
+    margin-top: 60px;
+}
+
+form {
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(143, 143, 177);
+    box-shadow: 4px 4px 15px 15px rgba(0, 0, 0, .5);
+}
+
+h1 {
+    background-color: rgb(160, 157, 154);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: rgb(57, 57, 216);
+    text-align: center;
+}
+
+#mesImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#mesImages img {
+    height: 200px;
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: transform .1s;
+}
+
+img:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 /
+    -webkit-transform: scale(1.5); / Safari 3-8 */
+    transform: scale(1.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #1E1C1C;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    color: #fff;
+}
+
+#navbar_footer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    gap: 10vw;
+    margin-top: 3vh;
+}
+
+#navbar_footer h1 {
+    transform: translate(-2vw);
+    text-decoration: underline;
+    font-size: 40px;
+    margin-bottom: 3vh;
+}
+
+#navbar_footer li {
+    list-style: none;
+    font-size: 20px;
+}
+
+#navbar_footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar_footer li a:hover {
+    color: #00319b;
+}
+
+#copyright_footer {
+    background-color: #1b1b1b;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.fin_galerie {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 10pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#lien {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gauche {
+    width: 50%;
+    height: 100%;
+    font-size: 15pt;
+    display: flex;
+    background-image: url(http://www.leman-sans-frontiere.org//docs/upload/commun/contact.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+#droite {
+    width: 50%;
+    height: 100%;
+    font-size: 15pt;
+    background-image: url(https://pbs.twimg.com/media/FCn0EcDWQAEHsfT.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
